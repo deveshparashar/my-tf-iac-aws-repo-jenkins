@@ -25,6 +25,7 @@ variable "tag_name" {
        name =  "ec2-instance-jenkins-pipeline"
       owner = "7033435322322370"
       OHR = "7033435232323232270"
+  }
 }
 
 variable "ami_id" {
