@@ -21,7 +21,7 @@ variable "security_group" {
 variable "tag_name" {
   description = "Tag Name of for Ec2 instance"
   type = map
-  default     {
+  default   =  {
        name =  "ec2-instance-jenkins-pipeline"
       owner = "7033435322322370"
       OHR = "7033435232323232270"
