@@ -22,9 +22,9 @@ variable "tag_name" {
   description = "Tag Name of for Ec2 instance"
   type = map
   default   =  {
-       Name =  "ec2-instance-jenkins-pipeline"
-      owner = "7033435322322370"
-      OHR = "7033435232323232270"
+      # Name =  "ec2-instance-jenkins-pipeline"
+      Owner = "7033435322322370"
+     # OHR = "7033435232323232270"
   }
 }
 
